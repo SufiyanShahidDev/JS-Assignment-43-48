@@ -34,3 +34,24 @@ function checkLeapYear() {
 }
 
 checkLeapYear();
+
+// Answer3
+
+function calculateS(a, b, c) {
+    return (a + b + c) / 2;
+}
+
+function calculateArea() {
+    var a = +prompt("Enter side a:");
+    var b = +prompt("Enter side b:");
+    var c = +prompt("Enter side c:");
+
+    var S = calculateS(a, b, c);
+
+    var area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
+
+    alert("Area of the triangle is: " + area);
+    console.log("Area of the triangle is: " + area);
+}
+
+calculateArea();
