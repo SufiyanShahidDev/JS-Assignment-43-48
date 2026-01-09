@@ -23,12 +23,12 @@ function resetImage(img) {
 
 let counter = 0;
 
-    function increase() {
-        counter++;
-        document.getElementById("count").innerHTML = counter;
-    }
+function increase() {
+    counter++;
+    document.getElementById("count").innerHTML = counter;
+}
 
-    function decrease() {
-        counter--;
-        document.getElementById("count").innerHTML = counter;
-    }
+function decrease() {
+    counter--;
+    document.getElementById("count").innerHTML = counter;
+}
