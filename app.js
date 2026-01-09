@@ -8,3 +8,7 @@ function showAlert() {
 function showMessage() {
     alert("Thanks for purchasing a mobile from us!");
 }
+
+// function deleteRow(button) {
+//     button.parentNode.parentNode.remove();
+// }
